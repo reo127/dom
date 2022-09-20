@@ -215,6 +215,226 @@ document.querySelector('.search-form').submit()
 
 let lang = document.querySelector('#SIvCob').children
 
+for(ele in lang){
+     if( ele % 2 === 0 ){
+          lang[ele].remove()
+     }
+}
+
 ```
 
-![Output](./Pic15.png)
+![Output](./eight.png)
+
+--------------------------------------------------------------------------------------------
+
+9. Webiste Name: [Code Wars](https://www.codewars.com/)
+
+### Topics
+
+       Change Font Family, Color of Text.
+
+### Sample Image
+
+![Sample One](./Pic16.png)
+
+### Tasks
+
+    Change the font family of the text to monospace and text color to the logo’s background color.
+
+### Output
+
+```javascript
+let str = document.querySelector('.display-heading-1')
+
+str.style.fontFamily = "monospace"
+
+str.style.color = "#AB341D"
+```
+
+![Output](./nine.png)
+
+
+--------------------------------------------------------------------------------------------
+
+10. Webiste Name: [Freecodecamp](https://www.freecodecamp.org/)
+
+### Topics
+
+       querySelector, mouseover, click eventListener,  callback function, style,
+
+### Sample Image
+
+![Sample One](./Pic18.png)
+
+### Tasks
+
+    Target the button and change background colour on mouseover
+
+### Output
+
+
+```javascript
+let str = document.querySelector('.btn-cta-big .login-btn-text')
+
+str.addEventListener("mouseover", () => { str.style.background = "red" } )
+
+```
+
+![Output](./ten.png)
+
+
+--------------------------------------------------------------------------------------------
+
+11. Webiste Name: [realme](https://www.realme.com/in/)
+
+### Topics
+
+       querySelector,style,background-image
+
+### Sample Image
+
+![Sample One](./Pic20.png)
+
+### Tasks
+
+    change the realme logo to ineuron logo
+
+### Output
+
+
+```javascript
+document.querySelector('.icon-logo').style.backgroundImage = "url('https://ineuron.ai/images/ineuron-logo.png')"
+```
+
+![Output](./eleven.png)
+
+
+--------------------------------------------------------------------------------------------
+
+
+12. Webiste Name: [Github](https://github.com/)
+
+### Topics
+
+       querySelector,style,background-Color
+
+### Sample Image
+
+![Sample One](./Pic22.png)
+
+### Tasks
+
+     change the background colour of the button to blue.
+
+### Output
+
+
+```javascript
+document.querySelector('.btn').style.background = "blue"
+```
+
+![Output](./twelve.png)
+
+
+--------------------------------------------------------------------------------------------
+
+13. Webiste Name: [Hackerrank](https://www.hackerrank.com/)
+
+### Topics
+
+       querySelector,innerHtml
+
+### Sample Image
+
+![Sample One](./Pic24.png)
+
+### Tasks
+
+Target the top description and change “Matching developers with great companies” to ‘JSBOOTCAMP“.
+
+### Output
+
+```javascript
+document.querySelector('.fl-heading-text').innerHTML = "JSBOOTCAMP"
+```
+
+![Output](./thertin.png)
+
+
+--------------------------------------------------------------------------------------------
+
+14. Webiste Name: [Asus](https://www.asus.com/in/)
+
+### Topics
+
+      querySelector,style,font-size
+
+### Sample Image
+
+![Sample One](./Pic26.png)
+
+### Tasks
+
+       change the fontsize of “Hot Deals” to 80px
+
+### Output
+
+
+```javascript
+document.querySelector('.HotDealsAll__Heading__2fIbe').style.fontSize = "80px"
+```
+
+![Output](./fortin.png)
+
+
+--------------------------------------------------------------------------------------------
+
+15. Webiste Name: [Dell](https://www.dell.com/en-in/shop/deals/laptop-deals?gacd=10415953-9016-5761040-285981356-0&dgc=ST&gclid=Cj0KCQjwguGYBhDRARIsAHgRm4-XUDMhhVNyHXb3s1gY4ZBzORr_d9Se-buhJwy7asyUe7YdqEA11eEaAt6UEALw_wcB&gclsrc=aw.ds&nclid=BxjBlpBQsX6pjSHh-L8YYSU77EpfXRkG1AGMB5Wbeu386ykspfrPDnfx_DdFau20)
+
+### Topics
+
+      querySelector,style.textAlign
+
+### Sample Image
+
+![Sample One](./Pic28.png)
+
+### Tasks
+
+       Convert the text “G15 Gaming Laptop” from left to right
+
+### Output
+
+```javascript
+document.querySelector('.ps-title a').style.float = "right"
+```
+
+![Output](./fiften.png)
+
+
+--------------------------------------------------------------------------------------------
+
+16. Webiste Name: [Vercel](https://vercel.com/)
+
+### Topics
+
+     querySelector,innerHTMl
+
+### Sample Image
+
+![Sample One](./Pic30.png)
+
+### Tasks
+
+      change the heading “Start with the developer” to “Start with Scratch”
+
+### Output
+
+```javascript
+document.querySelector('.section-title_title__VEDfK').innerHTML = "Start with Scratch"
+```
+
+![Output](./sixten.png)
+
+--------------------------------------------------------------------------------------------
+
