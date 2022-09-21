@@ -460,6 +460,77 @@ let date = new Date()
 document.querySelector('.btn-container').innerHTML = date
 ```
 
+![Output](./seventin.png)
+
+--------------------------------------------------------------------------------------------
+
+18. Webiste Name: [Philips](https://www.philips.co.in/)
+
+### Topics
+
+     querySelector,style,backgroundcolor
+
+### Sample Image
+
+![Sample One](./Pic34.png)
+
+### Tasks
+
+    change the background colour blue to orange
+
+### Output
+
+```javascript
+document.querySelector('.p-f03-footer-container ').style.background = "#E8BD0D"
+```
+
+![Output](./eighten.png)
 
 
-![Output](./seven)
+--------------------------------------------------------------------------------------------
+
+19. Webiste Name: [Canon](https://in.canon/)
+
+### Topics
+
+          querySelector,src
+
+### Sample Image
+
+![Sample One](./Pic36.png)
+
+### Tasks
+
+    extract the canon logo
+
+### Output
+
+```javascript
+document.querySelector('.logo').src
+```
+
+![Output](./nineten.PNG)
+
+--------------------------------------------------------------------------------------------
+
+20. Webiste Name: [Oppo](https://www.oppo.com/in/)
+
+### Topics
+
+          querySelector,style,color
+
+### Sample Image
+
+![Sample One](./Pic38.png)
+
+### Tasks
+
+      Change the description colour black to orange
+
+### Output
+
+```javascript
+document.querySelector('.desc').style.color = "orange"
+```
+
+![Output](./twentin.png)
