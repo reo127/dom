@@ -438,3 +438,28 @@ document.querySelector('.section-title_title__VEDfK').innerHTML = "Start with Sc
 
 --------------------------------------------------------------------------------------------
 
+17. Webiste Name: [Sony](https://www.sony.co.in/)
+
+### Topics
+
+    querySelector,innerHTMl
+
+### Sample Image
+
+![Sample One](./Pic33.png)
+
+### Tasks
+
+     change the button text To current Date.
+
+### Output
+
+```javascript
+let date = new Date()
+
+document.querySelector('.btn-container').innerHTML = date
+```
+
+
+
+![Output](./seven)
